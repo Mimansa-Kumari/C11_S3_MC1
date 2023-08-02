@@ -1,0 +1,38 @@
+.container
+{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+h1{
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 30px;
+    color:rgb(92, 29, 151);
+}
+#radio
+{
+    color: black;
+}
+.mat-mdc-radio-button ~ .mat-mdc-radio-button {
+    margin-left: 16px;
+  }
+#fName,#pass,#age,#city
+{
+    margin-right: 80px;
+} 
+#email, #address, #zip
+{
+    width: 35%;
+}
+#reset, #submit
+{
+    margin-right: 30px;
+}
+.example-full-width
+{
+    margin-bottom: 30px;
+}
+p
+{
+    margin-top: -20px;
+}

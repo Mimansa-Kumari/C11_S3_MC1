@@ -1,0 +1,13 @@
+<div class="content">
+  <h2 id="modify">{{item.title}}
+    <ng-container [ngSwitch]="true">
+      <div *ngSwitchCase="item.priority === 'High'"><mat-icon color="warn">arrow_circle_up</mat-icon></div>
+      <div *ngSwitchCase="item.priority === 'Medium'"><mat-icon color="primary">remove_circle_outline</mat-icon></div>
+      <div *ngSwitchCase="item.priority === 'Critical'"><mat-icon color="accent">gpp_maybe</mat-icon></div>
+      <div *ngSwitchDefault><mat-icon color="primary">arrow_circle_down</mat-icon></div>
+    </ng-container>
+  </h2>
+  <p id="date">{{item.reminderDate}}</p>
+  <p>{{item.content}}</p>
+  <p id="category">{{item.category}}</p>
+</div>

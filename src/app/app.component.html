@@ -1,0 +1,5 @@
+<app-header></app-header>
+<app-registration (displayContent)="displayDashboard($event)"></app-registration>
+<div *ngIf="data">
+    <app-dashboard></app-dashboard>
+</div>
